@@ -1,0 +1,78 @@
+
+body{
+    
+    background-image:url(/images/background-image.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color:aqua;
+    position: relative;
+}
+#container{
+   display: inline-block;
+  vertical-align: middle;
+}
+img{
+    display: inline;
+    vertical-align: middle;
+    position: relative;
+    float:left;
+    padding: 30px ;
+}
+#about{
+    position: absolute;
+    padding: 10px ;
+     width: 80%;
+    text-align: center;
+     display: inline;
+     background-size:-60%;
+     margin-left:30%;
+    float:right
+}
+table, th, td {
+    
+   top: 50%;
+   left: 20px;
+   padding: 15px;
+   border: 2px solid;
+   text-align: center;
+   width: 80%;margin-left:10%; margin-right:15%
+}
+a, .button{
+   color: white;
+    background:red;
+
+     padding: 4px 8px;
+     left:50%;
+    
+}
+#content {
+     background-image:url(/images/background-image.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color:aqua;
+    position: relative;
+
+}
+form{
+    position: absolute;
+    margin:20%;
+    padding: 30px;
+    left :20%;
+    text-align: center;
+    
+}
+#contactbtn{
+    color: white;
+    background:red;
+    
+     padding: 12px 23px;
+     left:50%;
+      margin:10%;
+}
+
+#table2{
+    text-align:left;
+}
+p{
+    text-align:left;
+}
